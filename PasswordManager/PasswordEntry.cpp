@@ -1,6 +1,15 @@
 #include "PasswordEntry.h"
-PasswordEntry::PasswordEntry(std::string& website, std::string& username, std::string& password) {
+PasswordEntry::PasswordEntry(const string& website, const string& username, const string& password) {
     this->website = website;
+    this->username = username;
+    this->password = password;
+    // Initialize other private members if needed
+}
+
+PasswordEntry::PasswordEntry(string& website, string& username, string& password) {
+    this->website = website;
+    this->username = username;
+    this->password = password;
     // Initialize other private members if needed
 }
 
