@@ -1,0 +1,32 @@
+{
+    "temp1": [
+        [
+            "temp2",
+            "temp3"
+        ],
+        [
+            "temp4",
+            "temp5"
+        ]
+    ],
+    "website1": [
+        [
+            "username1",
+            "password1"
+        ],
+        [
+            "username2",
+            "password2"
+        ]
+    ],
+    "website2": [
+        [
+            "username1.2",
+            "password1.2"
+        ],
+        [
+            "username2.2",
+            "password2.2"
+        ]
+    ]
+}

@@ -1,13 +1,12 @@
 #include "PasswordEntry.h"
-PasswordEntry::PasswordEntry(const string& website, const string& username, const string& password) {
-    this->website = website;
+PasswordEntry::PasswordEntry(const string& username, const string& password) {
+    //this->website = website;
     this->username = username;
     this->password = password;
     // Initialize other private members if needed
 }
 
-PasswordEntry::PasswordEntry(string& website, string& username, string& password) {
-    this->website = website;
+PasswordEntry::PasswordEntry(string& username, string& password) {
     this->username = username;
     this->password = password;
     // Initialize other private members if needed
@@ -21,9 +20,9 @@ string PasswordEntry::getUsername() const{
     return username;
 }
 
-string PasswordEntry::getWebsite() const{
-    return website;
-}
+//string PasswordEntry::getWebsite() const{
+//    return website;
+//}
 
 void PasswordEntry::setPassword(string& password) {
     this->password = password;
@@ -33,6 +32,6 @@ void PasswordEntry::setUsername(string& username) {
     this->username = username;
 }
 
-void PasswordEntry::setWebsite(string& website) {
-    this->website = website;
-}
+//void PasswordEntry::setWebsite(string& website) {
+//    this->website = website;
+//}

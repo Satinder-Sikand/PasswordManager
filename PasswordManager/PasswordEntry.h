@@ -1,6 +1,8 @@
 #pragma once
-using namespace std;
+//using namespace std;
 #include <string>
+
+using string = std::string;
 
 class PasswordEntry
 {
@@ -10,9 +12,9 @@ private:
 	string website;
 
 public:
-	PasswordEntry(string& website, string& username, string& password);
-	PasswordEntry(const string& website, const string& username, const string& password);
-	string getUsername() const, getPassword() const, getWebsite() const;
-	void setUsername(string& username), setPassword(string& password), setWebsite(string& website);
+	PasswordEntry( string& username, string& password);
+	PasswordEntry(const string& username, const string& password);
+	string getUsername() const, getPassword() const;
+	void setUsername(string& username), setPassword(string& password);
 };
 
